@@ -15,6 +15,8 @@ while($element = readdir($rootDir)) {
   }
 }
 
+
+
 closedir($rootDir);
 $projectCount = count($dirArray) ;
 if ($projectCount > 0) { sort($dirArray); }
